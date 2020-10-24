@@ -1,4 +1,4 @@
-CREATE VIEW `day26`.`detail_mahasiswa` 
+CREATE VIEW `db_day26`.`detail_mahasiswa` 
     AS
 (SELECT
     `mahasiswa`.`nim`
