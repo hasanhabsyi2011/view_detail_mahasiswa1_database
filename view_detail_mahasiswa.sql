@@ -5,6 +5,6 @@ CREATE VIEW `db_day26`.`detail_mahasiswa`
     , `mahasiswa`.`nama`
     , `mahasiswa`.`jurusan`
 FROM
-    `day26`.`universitas`
-    INNER JOIN `day26`.`mahasiswa` 
+    `db_day26`.`universitas`
+    INNER JOIN `db_day26`.`mahasiswa` 
         ON (`universitas`.`jurusan` = `mahasiswa`.`jurusan`));
